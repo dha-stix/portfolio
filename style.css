@@ -33,9 +33,8 @@ h3 {
   font-size: 2rem;
   font-family: "Quicksand", sans-serif;
 }
-
-i {
-  color: #bbe1fa;
+.fa-hand-peace {
+  color: white;
 }
 
 section {
