@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 html {
   font-size: 10px;
 }
@@ -104,7 +102,7 @@ nav {
 }
 
 .typing {
-  color: #bbe1fa;
+  color: #5fa9db;
   margin-left: 10px;
   position: relative;
 }
@@ -156,7 +154,7 @@ nav {
   background-color: transparent;
 }
 
-.about-me>* {
+.about-me > * {
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -190,7 +188,6 @@ nav {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .work:hover {
@@ -212,16 +209,16 @@ nav {
   margin: 7px 0px;
 }
 
-.work-link>a {
+.work-link > a {
   text-decoration: none;
   color: #006a71;
 }
 
-.work-link>a:hover {
+.work-link > a:hover {
   color: #ff5722;
 }
 
-.works>* {
+.works > * {
   margin: 15px;
 }
 
@@ -241,21 +238,21 @@ nav {
   margin-bottom: 15px;
 }
 
-.hireme>p {
+.hireme > p {
   margin-top: 50px;
   font-weight: 800;
 }
 
 .fa-hand-point-down {
   color: #ff5722;
-  font-size: 3rem
+  font-size: 3rem;
 }
 
-.hireme>* {
+.hireme > * {
   margin-bottom: 15px;
 }
 
-.hireme>a {
+.hireme > a {
   text-decoration: none;
   color: white;
   background-color: #0f4c75;
@@ -266,7 +263,7 @@ nav {
   transition-property: background-color;
 }
 
-.hireme>a:hover {
+.hireme > a:hover {
   background-color: #bbe1fa;
   color: black;
 }
@@ -297,7 +294,6 @@ footer {
   color: #333;
   margin-right: 15px;
 }
-
 
 .links {
   font-family: "Quicksand", sans-serif;
@@ -351,13 +347,14 @@ footer {
   .active {
     display: block;
     position: absolute;
-    height: 250px;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    background-color: #0f4c75;
     width: 100%;
     animation-name: nav;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
+    z-index: 1;
   }
 
   @keyframes nav {
@@ -381,7 +378,7 @@ footer {
     flex-direction: column;
   }
 
-  footer>* {
+  footer > * {
     margin-top: 15px;
   }
 
@@ -400,7 +397,7 @@ footer {
     margin-top: 15px;
   }
 
-  .hireme>a {
+  .hireme > a {
     width: 200px;
   }
 
@@ -411,7 +408,7 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-  .work>img {
+  .work > img {
     width: 80%;
   }
 }
