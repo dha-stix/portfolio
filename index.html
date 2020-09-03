@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Asaolu</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@300;400&family=Quicksand:wght@400;500&display=swap"
@@ -25,7 +26,8 @@
             </ul>
         </nav>
 
-        <div class="jumbotron">
+        <div class="jumbotron" data-aos="zoom-in" data-aos-easing="linear"
+     data-aos-duration="700">
             <div class="title">
                 <h2 class="welcome">Hi there! <i class="far fa-hand-peace"></i></h2>
                 <h2>I'm David, </h2>
@@ -53,7 +55,8 @@
         <div class="portfolio" id="portfolio">
             <h2>My Recent Works</h2>
             <div class="works">
-                <div class="work">
+                <div class="work" data-aos="fade-up"
+     data-aos-anchor-placement="top-center" data-aos-duration="1000">
                     <img src="./images/port bonaventures.jpg" alt="Bonaventures High School">
                     <div class="work-details">
                         <p class="work-heading">A school website layout </p>
@@ -64,7 +67,8 @@
                     </div>
                 </div>
 
-                <div class="work">
+                <div class="work" data-aos="fade-up"
+     data-aos-anchor-placement="top-center" data-aos-duration="1000">
                     <img src="./images/port wedding.png" alt="Segun & Sade Wedding Invite">
                     <div class="work-details">
                         <p class="work-heading">A wedding invite page </p>
@@ -75,7 +79,8 @@
                     </div>
                 </div>
 
-                <div class="work">
+                <div class="work" data-aos="fade-up"
+     data-aos-anchor-placement="top-center" data-aos-duration="1000">
                     <img src="./images/port sofa.jpg" alt="SofaDrive Website">
                     <div class="work-details">
                         <p class="work-heading">A driving school website </p>
@@ -86,7 +91,8 @@
                     </div>
                 </div>
 
-                <div class="work">
+                <div class="work" data-aos="fade-up"
+     data-aos-anchor-placement="top-center" data-aos-duration="1000">
                     <img src="./images/port login.jpg" alt="Admin Login Page">
                     <div class="work-details">
                         <p class="work-heading">An admin login page layout </p>
@@ -96,7 +102,8 @@
                                 Code</a></p>
                     </div>
                 </div>
-                <div class="work">
+                <div class="work" data-aos="fade-up"
+     data-aos-anchor-placement="top-center" data-aos-duration="1000">
                     <img src="./images/port github.png" alt="GitHub Profile Web App">
                     <div class="work-details">
                         <p class="work-heading">A github profile web application </p>
@@ -105,7 +112,8 @@
                                 Code</a></p>
                     </div>
                 </div>
-                <div class="work">
+                <div class="work" data-aos="fade-up"
+     data-aos-anchor-placement="top-center" data-aos-duration="1000">
                     <img src="./images/port zodiac.jpg" alt="A horoscope web app">
                     <div class="work-details">
                         <p class="work-heading">A horoscope web app</p>
@@ -143,9 +151,11 @@
                     class="fab fa-linkedin-in"></i></a>
         </div>
     </footer>
-    <div class="navigation">
 
-    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script src="./app.js"></script>
 </body>
 
